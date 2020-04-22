@@ -33,7 +33,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "Node-Env-App-VictorSibanda-{{timestamp}}"
+    "ami_name": "MongoDB-Env-VictorSibanda-{{timestamp}}"
   }],
 
   "provisioners" : [
