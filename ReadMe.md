@@ -40,10 +40,15 @@ To use Chef you have to accept the chef licence done by adding
 `git clone git@github.com:victorsibanda/MongodEnvironment.git`
 
 - In terminal use `berks vendor Cookbooks`
-which will clone the cookbooks into a folder named Cookbooks
+which will clone the cookbooks into a folder named Cookbooks.
+
+
 Note :: If you want to repeat the process use `rm berksfile.lock`
 then run `berks vendor Cookbooks` again.
 
 - To create the AMI Run :
- - `packer validate packer.json` If that passes run
- - `packer build packer.json`
+
+ `packer validate packer.json`
+-  If that passes run
+
+  `packer build packer.json`
